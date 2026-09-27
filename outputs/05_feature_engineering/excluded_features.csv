@@ -1,0 +1,9 @@
+feature_name,reason
+wtc_AmpPhR_mean,Target leakage (direct electrical proxy for generated power)
+wtc_CosPhi_mean,Target leakage (derived power factor)
+wtc_ReactPwr_mean,Electrical feedback variable
+wtc_GridFreq_mean,Grid external stability parameter; negligible predictive power for turbine mechanical output
+wtc_VoltPhR_mean,High colinearity with grid voltage variations; minimal variance related to wind resource
+wtc_ScInOper_timeon,"Operational state indicator; retained for filtering, excluded from regression inputs"
+wtc_ScReToOp_timeon,Operational state indicator
+wtc_ScTurSto_timeon,Operational state indicator

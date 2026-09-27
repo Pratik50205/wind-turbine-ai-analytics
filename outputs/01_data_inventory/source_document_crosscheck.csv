@@ -1,0 +1,80 @@
+document_source,field_description,documented_identifier,documented_table,documented_unit,verified_in_dataset,scada_column_match,status
+Hill_of_Towie_turbine_fields_description.csv,Active power,wtc_ActPower_mean,tblSCTurGrid,kW,True,wtc_ActPower_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Current Phase R,wtc_AmpPhR_mean,tblSCTurGrid,A,True,wtc_AmpPhR_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Current Phase S,wtc_AmpPhS_mean,tblSCTurGrid,A,True,wtc_AmpPhS_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Current Phase T,wtc_AmpPhT_mean,tblSCTurGrid,A,True,wtc_AmpPhT_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Grid frequency,wtc_GridFreq_mean,tblSCTurGrid,Hz,True,wtc_GridFreq_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Power Factor,wtc_CosPhi_mean,tblSCTurGrid,unitless,True,wtc_CosPhi_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Reactive Power,wtc_ReactPwr_mean,tblSCTurGrid,kVar,True,wtc_ReactPwr_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Voltage Phase R,wtc_VoltPhR_mean,tblSCTurGrid,V,True,wtc_VoltPhR_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Voltage Phase S,wtc_VoltPhS_mean,tblSCTurGrid,V,True,wtc_VoltPhS_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Voltage Phase T,wtc_VoltPhT_mean,tblSCTurGrid,V,True,wtc_VoltPhT_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Brake accumulator pressure,wtc_BrAccPrs_mean,tblSCTurPress,bar,True,wtc_BrAccPrs_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Brake oil pressure,wtc_BrakPres_mean,tblSCTurPress,bar,True,wtc_BrakPres_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Gear oil pressure,wtc_GearPres_mean,tblSCTurPress,bar,True,wtc_GearPres_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Inverter coolant pressure,wtc_InvPress_mean,tblSCTurPress,bar,True,wtc_InvPress_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Yaw brake hydraulic pressure,wtc_YawPress_mean,tblSCTurPress,bar,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Actual wind direction,wtc_ActualWindDirection_mean,tblSCTurbine,deg,True,wtc_ActualWindDirection_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Wind speed from active wind sensor,wtc_AcWindSp_mean,tblSCTurbine,m/s,True,wtc_AcWindSp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Wind speed from primary wind sensor,wtc_PrWindSp_mean,tblSCTurbine,m/s,True,wtc_PrWindSp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Wind speed from secondary wind sensor,wtc_SeWindSp_mean,tblSCTurbine,m/s,True,wtc_SeWindSp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator RPM,wtc_GenRpm_mean,tblSCTurbine,rpm,True,wtc_GenRpm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Main shaft RPM,wtc_MainSRpm_mean,tblSCTurbine,rpm,True,wtc_MainSRpm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Nacelle yaw angle relative to North,wtc_NacelPos_mean,tblSCTurbine,deg,True,wtc_NacelPos_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Pitch angle, blade A",wtc_PitcPosA_mean,tblSCTurbine,deg,True,wtc_PitcPosA_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Pitch angle, blade B",wtc_PitcPosB_mean,tblSCTurbine,deg,True,wtc_PitcPosB_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Pitch angle, blade C",wtc_PitcPosC_mean,tblSCTurbine,deg,True,wtc_PitcPosC_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Ambient temperature,wtc_AmbieTmp_mean,tblSCTurTemp,°C,True,wtc_AmbieTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 1U1,wtc_Gen1U1Tm_mean,tblSCTurTemp,°C,True,wtc_Gen1U1Tm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 1V1,wtc_Gen1V1Tm_mean,tblSCTurTemp,°C,True,wtc_Gen1V1Tm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 1W1,wtc_Gen1W1Tm_mean,tblSCTurTemp,°C,True,wtc_Gen1W1Tm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 2U1,wtc_Gen2U1Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 2V1,wtc_Gen2V1Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator winding temperature 2W1,wtc_Gen2W1Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator NDE bearing temperature,wtc_GenBeGTm_mean,tblSCTurTemp,°C,True,wtc_GenBeGTm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator DE bearing temperature,wtc_GenBeRTm_mean,tblSCTurTemp,°C,True,wtc_GenBeRTm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Generator bearing inner ring temperature,wtc_GenBeITm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator bearing outer ring temperature,wtc_GenBeOTm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator cooling water temperature A,wtc_GenCoTmA_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Generator cooling water temperature B,wtc_GenCoTmB_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Gear oil temperature,wtc_GeOilTmp_mean,tblSCTurTemp,°C,True,wtc_GeOilTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Gearbox bearing temperature, HS generator side",wtc_HSGenTmp_mean,tblSCTurTemp,°C,True,wtc_HSGenTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Gearbox bearing temperature, HS rotor side",wtc_HSRotTmp_mean,tblSCTurTemp,°C,True,wtc_HSRotTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Gearbox bearing temperature, IMS generator side",wtc_IMSGenTm_mean,tblSCTurTemp,°C,True,wtc_IMSGenTm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Gearbox bearing temperature, IMS rotor side",wtc_IMSRotTm_mean,tblSCTurTemp,°C,True,wtc_IMSRotTm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Hub temperature,wtc_HubTemp_mean,tblSCTurTemp,°C,True,wtc_HubTemp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Pitch hydraulic oil temperature,wtc_HydOilTm_mean,tblSCTurTemp,°C,True,wtc_HydOilTm_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Main bearing temperature,wtc_MainBTmp_mean,tblSCTurTemp,°C,True,wtc_MainBTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Nacelle temperature,wtc_NacelTmp_mean,tblSCTurTemp,°C,True,wtc_NacelTmp_mean,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,"Transformer temperature, L1",wtc_TrafL1Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,"Transformer temperature, L2",wtc_TrafL2Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,"Transformer temperature, L3",wtc_TrafL3Tm_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Transformer oil temperature,wtc_TrafOilT_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Transformer room temperature,wtc_TraRoomT_mean,tblSCTurTemp,°C,False,NOT FOUND,MISSING
+Hill_of_Towie_turbine_fields_description.csv,Time running in period,wtc_ScInOper_timeon,tblSCTurFlag,seconds,True,wtc_ScInOper_timeon,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Time ready to operate in period,wtc_ScReToOp_timeon,tblSCTurFlag,seconds,True,wtc_ScReToOp_timeon,VERIFIED
+Hill_of_Towie_turbine_fields_description.csv,Time turbine error active in period,wtc_ScTurSto_timeon,tblSCTurFlag,seconds,True,wtc_ScTurSto_timeon,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Active Energy,ActiveEnergy,tblGridScientific,MWh,True,ActiveEnergy,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Reactive Energy,ReActiveEnergy,tblGridScientific,MWh,True,ReActiveEnergy,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Active Power,ActivePowerMean,tblGridScientific,MW,True,ActivePowerMean,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Reactive Power,ReActivePowerMean,tblGridScientific,MVar,True,ReActivePowerMean,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,3-phase Mean Voltage,VoltageMean,tblGridScientific,kV,True,VoltageMean,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,3-phase Mean Current,CurrentMean,tblGridScientific,A,True,CurrentMean,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Exported Active Power,ActivePowerExport,tblGrid,kWh,True,ActivePowerExport,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Imported Active Power,ActivePowerImport,tblGrid,kWh,True,ActivePowerImport,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Exported Reactive Power,ReActivePowerExport,tblGrid,kVarh,True,ReActivePowerExport,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Imported Reactive Power,ReActivePowerImport,tblGrid,kVarh,True,ReActivePowerImport,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Frequency,Frequency,tblGrid,Hz,True,Frequency,VERIFIED
+Hill_of_Towie_grid_fields_description.csv,Power Factor (cos phi),PowerFactor,tblGrid,unitless,True,PowerFactor,VERIFIED
+Hill_of_Towie_alarms_description.csv,Alarm 20: Large generator Cut-in (Stopping=0),20,tblAlarmLog,code,True,Alarmcode,ACTIVE_IN_SCADA
+Hill_of_Towie_alarms_description.csv,Alarm 25: Fast cut-out of generator (Stopping=0),25,tblAlarmLog,code,True,Alarmcode,ACTIVE_IN_SCADA
+Hill_of_Towie_alarms_description.csv,Alarm 102: Ice detection             : (Stopping=0),102,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,Alarm 1005: Availability - low wind (Stopping=1),1005,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,Alarm 3130: Pitch lubrication (Stopping=1),3130,tblAlarmLog,code,True,Alarmcode,ACTIVE_IN_SCADA
+Hill_of_Towie_alarms_description.csv,Alarm 8000: Windspeed too high to operate (Stopping=1),8000,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,"Alarm 8210: Stopped, due to icing (Stopping=1)",8210,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,Alarm 8230: Ice detection: Low torque (Stopping=1),8230,tblAlarmLog,code,True,Alarmcode,ACTIVE_IN_SCADA
+Hill_of_Towie_alarms_description.csv,Alarm 8234: Ice detection: No cut in (Stopping=1),8234,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,Alarm 8235: Ice Detect: Stopped (Stopping=1),8235,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,"Alarm 8236: Ice Detect: Stopped, De-Ice (Stopping=1)",8236,tblAlarmLog,code,False,Alarmcode,DOCUMENTED_CATALOG_ENTRY
+Hill_of_Towie_alarms_description.csv,"Alarm 10105: Stopped, untwisting cables (Stopping=1)",10105,tblAlarmLog,code,True,Alarmcode,ACTIVE_IN_SCADA

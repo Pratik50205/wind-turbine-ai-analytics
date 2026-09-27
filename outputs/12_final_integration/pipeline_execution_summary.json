@@ -1,0 +1,17 @@
+{
+  "execution_timestamp": "2026-09-27T23:17:29.572733",
+  "project_name": "Hill of Towie Wind Farm \u2014 AI Analytics & Power Prediction",
+  "total_turbines": 21,
+  "turbine_model": "Siemens SWT-2.3-VS-82",
+  "rated_fleet_capacity_mw": 48.3,
+  "stages_executed": "ALL_VERIFIED_STANDALONE",
+  "overall_status": "SUCCESS",
+  "fleet_annual_generation_gwh": 96.96,
+  "fleet_capacity_factor_pct": 23.88,
+  "fleet_technical_availability_pct": 98.42,
+  "holdout_model_r2": 0.9962,
+  "holdout_model_rmse_kw": 43.06,
+  "holdout_normalized_rmse_pct": 1.87,
+  "sustained_anomalies_count": 23,
+  "replay_mean_latency_ms": 1.48
+}

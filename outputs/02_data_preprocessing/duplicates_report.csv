@@ -1,0 +1,2 @@
+dataset,total_records_ingested,duplicate_timestamps_per_turbine,duplicate_percentage,action_taken
+Hill of Towie SCADA (2025 - 2026),1421276,272,0.0191,"Kept first occurrence, discarded exact duplicates"

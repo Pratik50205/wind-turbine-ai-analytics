@@ -1,0 +1,5 @@
+operating_state,record_count,percentage,mean_power_kw,mean_wind_speed_ms,description
+Normal Power Production,823944,77.77,709.39,7.67,Active power generation exported to grid
+Auxiliary Consumption / Calm Standby,234813,22.16,-11.84,2.77,Parasitic power drawn from grid for heating/electronics below cut-in wind
+Curtailment / Pitch De-rate,8567,0.81,43.34,16.04,High wind (>12 m/s) with feathered blade pitch limiting power export
+Stopped / Tripped / Maintenance,16282,1.54,-5.06,6.98,"Turbine stopped for error, alarm, or maintenance (wtc_ScTurSto_timeon > 300s)"

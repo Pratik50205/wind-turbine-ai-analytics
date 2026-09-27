@@ -1,0 +1,9 @@
+dataset,path,format,size_gb,records,verification,size_mb
+Raw SCADA 2025 Stream,data/raw/2025/,CSV (Monthly),6.84,1059460,VERIFIED,
+Raw SCADA 2026 Stream,data/raw/2026/,CSV (Monthly),2.33,361504,VERIFIED,
+Raw SCADA Metadata & Documentation,data/raw/metadata/,CSV / DOCX,0.05,55,VERIFIED,
+Cleaned SCADA 2025 Parquet,data/processed/scada_2025_cleaned.parquet,Parquet (Snappy),,1059460,VERIFIED,42.1
+Cleaned SCADA 2026 Parquet,data/processed/scada_2026_cleaned.parquet,Parquet (Snappy),,361504,VERIFIED,14.8
+Cleaned Alarms Parquet,data/processed/alarms_cleaned.parquet,Parquet (Snappy),,512117,VERIFIED,5.4
+Model-Ready Training Matrix 2025,data/model_ready/train_features_2025.parquet,Parquet,,1059460,VERIFIED,52.3
+Model-Ready Holdout Matrix 2026,data/model_ready/test_features_2026.parquet,Parquet,,361504,VERIFIED,18.1

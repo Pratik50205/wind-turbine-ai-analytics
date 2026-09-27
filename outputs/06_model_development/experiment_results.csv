@@ -1,0 +1,5 @@
+Model,R2_Score,RMSE_kW,MAE_kW,Normalized_RMSE_pct,Normalized_MAE_pct,SMAPE_pct
+HistGradientBoosting Regressor,0.9963,43.06,19.09,1.87,0.83,7.53
+Random Forest Regressor,0.9951,49.53,18.75,2.15,0.82,6.27
+Ridge Linear Regression,0.918,201.93,141.53,8.78,6.15,52.84
+Empirical Power Curve Baseline,0.8755,248.88,93.12,10.82,4.05,35.8

@@ -1,0 +1,8 @@
+{
+  "MAE_kW": 25.65,
+  "RMSE_kW": 47.22,
+  "R2_Score": 0.9962,
+  "Normalized_RMSE_pct": 2.05,
+  "Normalized_MAE_pct": 1.12,
+  "SMAPE_pct": 8.9
+}

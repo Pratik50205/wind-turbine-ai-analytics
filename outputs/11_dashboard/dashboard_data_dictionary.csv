@@ -1,0 +1,8 @@
+kpi_name,formula,source_table,source_column,unit,aggregation,interpretation_thresholds
+Fleet Annual Energy Yield,Sum(wtc_ActPower_mean * (10/60)) / 1e6,data/processed/scada_2025_cleaned.parquet,wtc_ActPower_mean,GWh,Annual Fleet Sum,Nominal: 90-110 GWh; Alert < 85 GWh
+Fleet Capacity Factor,Annual Yield / (48.3 MW * 8760 h) * 100,outputs/04_performance_analysis/performance_metrics.csv,farm_capacity_factor_pct,%,Fleet Weighted Mean,Nominal: 20-30%; Exceptional > 35%
+Technical Availability,(Active Operating Hours / Total Grid Hours) * 100,outputs/04_performance_analysis/performance_metrics.csv,farm_technical_availability_pct,%,Fleet Mean,Nominal > 95%; Investigation Required < 92%
+Holdout Test R² Score,1 - SS_res / SS_tot,outputs/07_power_prediction/error_summary.csv,R2_Score,"Dimensionless [0, 1]",Unseen 2026 Test Holdout,Acceptable > 0.90; Target > 0.98; Achieved: 0.9962
+Normalized RMSE,(RMSE / Rated_Capacity_2300kW) * 100,outputs/07_power_prediction/error_summary.csv,Normalized_RMSE_pct,%,Test Fleet,Target < 5.0%; Achieved: 1.87%
+Sustained Anomaly Events,Count(consecutive steps >= 3 where deficit <= -250 kW and wind >= 3.5 m/s),outputs/08_anomaly_detection/anomaly_events.csv,event_id,Events,Count,Nominal < 50 events/year; Priority Investigation for silent drift
+Replay Processing Latency,Elapsed Wall Clock Time / Processed SCADA Steps,outputs/10_replay_processing/replay_performance_metrics.csv,mean_latency_ms,ms,Per-step Mean,Real-time Threshold < 500 ms; Achieved: 1.48 ms

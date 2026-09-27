@@ -1,0 +1,23 @@
+feature_name,source_table,engineering_unit,domain_category,description,pipeline_role,linear_corr_with_power,min_val,max_val,mean_val,missing_pct
+wtc_AmpPhR_mean,tblSCTurGrid,A,Electrical,Phase R current (mean),Electrical Load Monitoring,0.9989,7.27,1936.77,629.75,0.0
+wtc_Gen1U1Tm_mean,tblSCTurTemp,°C,Thermal / Electrical,Generator stator winding temperature 1U1,Generator Thermal Health,0.922,0.0,92.51,37.85,0.0
+wtc_AcWindSp_mean,tblSCTurbine,m/s,Aerodynamic / Input,Active anemometer 10-minute average wind speed,Primary Predictor,0.9006,0.09,28.74,7.24,0.0
+wtc_PrWindSp_mean,tblSCTurbine,m/s,Aerodynamic / Input,Primary anemometer 10-minute average wind speed,Alternative Wind Input,0.9006,0.09,28.74,7.24,0.0
+wtc_GenRpm_mean,tblSCTurbine,rpm,Mechanical / Drivetrain,Generator rotational speed (mean),Operating State / Speed,0.876,0.6,1553.94,1033.92,0.0
+wtc_MainSRpm_mean,tblSCTurbine,rpm,Mechanical / Drivetrain,Main low-speed shaft rotational speed (mean),Operating State / Rotor Speed,0.8759,0.0,17.08,11.36,0.0
+wtc_GenBeGTm_mean,tblSCTurTemp,°C,Thermal / Mechanical,Generator non-drive end bearing temperature,Bearing Condition Feature,0.8399,3.0,80.48,29.39,0.0
+wtc_GeOilTmp_mean,tblSCTurTemp,°C,Thermal / Lubrication,Gearbox oil temperature,Drivetrain Condition Feature,0.709,21.93,50.98,39.59,0.0
+wtc_CosPhi_mean,tblSCTurGrid,unitless,Electrical,Power factor (mean),Grid Power Quality,0.6173,-0.69,1.0,0.62,0.0
+wtc_ScInOper_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine in normal operation (max 600s),Operational Mask / Filter,0.5159,0.0,600.0,470.94,0.0
+wtc_NacelTmp_mean,tblSCTurTemp,°C,Thermal,Nacelle internal air temperature,Thermal State Monitoring,0.4249,5.51,30.25,17.94,0.0
+wtc_GearPres_mean,tblSCTurPress,bar,Hydraulic / Mechanical,Gearbox lubrication oil pressure,Drivetrain Hydraulic Health,0.4052,-0.1,4.34,2.44,0.0
+wtc_ActualWindDirection_mean,tblSCTurbine,deg,Environmental,Measured wind direction angle,Directional / Wake Feature,0.2184,0.01,360.0,236.33,0.0
+wtc_NacelPos_mean,tblSCTurbine,deg,Operational,Nacelle yaw position relative to North,Yaw Alignment Feature,0.1994,0.0,359.99,238.13,0.0
+wtc_VoltPhR_mean,tblSCTurGrid,V,Electrical,Phase R voltage (mean),Grid Quality Feature,-0.1913,390.13,411.65,400.89,0.0
+wtc_PitcPosA_mean,tblSCTurbine,deg,Aerodynamic / Control,Blade A pitch angle (mean),Aerodynamic Power Regulation Control,-0.0994,-1.93,77.9,2.64,0.0
+wtc_ScReToOp_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine ready to operate (max 600s),Operational Mask / Filter,0.0944,0.0,600.0,594.23,0.0
+wtc_BrakPres_mean,tblSCTurPress,bar,Hydraulic / Safety,Mechanical brake hydraulic pressure,Braking / Safety Status,-0.0624,-2.0,80.0,-0.67,0.0
+wtc_AmbieTmp_mean,tblSCTurTemp,°C,Environmental / Thermal,Ambient air temperature (mean),Air Density Correction Factor,0.0559,-4.0,13.7,2.9,0.0
+wtc_GridFreq_mean,tblSCTurGrid,Hz,Electrical,Grid electrical frequency,Grid Stability Feature,-0.0326,49.78,50.17,50.0,0.0
+wtc_ScTurSto_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine stopped / faulted (max 600s),Shutdown Filter,-0.0309,0.0,600.0,0.5,0.0
+wtc_ReactPwr_mean,tblSCTurGrid,kVar,Electrical,Reactive power (mean),Grid Interaction Feature,-0.0254,-1001.43,330.12,-79.1,0.0

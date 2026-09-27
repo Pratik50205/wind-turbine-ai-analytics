@@ -1,0 +1,5 @@
+debug: false
+host: 127.0.0.1
+port: 8050
+refresh_interval_ms: 2000
+title: "Hill of Towie Wind Farm \u2014 Performance & Power Prediction"

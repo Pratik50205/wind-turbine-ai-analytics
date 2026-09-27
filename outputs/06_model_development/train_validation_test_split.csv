@@ -1,0 +1,4 @@
+partition,period,record_count,share_pct
+Train,2025-01-01 to 2025-10-31,875813,61.64
+Validation,2025-11-01 to 2025-12-31,183647,12.92
+Test (Unseen Holdout),2026-01-01 to 2026-04-30,361504,25.44

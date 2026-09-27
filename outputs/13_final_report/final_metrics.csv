@@ -1,0 +1,19 @@
+metric_category,metric_name,value,unit
+Fleet Capacity,Turbine Count,21,Units
+Fleet Capacity,Turbine Model,Siemens SWT-2.3-VS-82,Nominal 2.3 MW
+Fleet Capacity,Total Farm Capacity,48.3,MW
+Annual Performance,Total Energy Yield (2025),96.96,GWh
+Annual Performance,Farm Capacity Factor,23.88,%
+Annual Performance,Technical Availability,98.42,%
+ML Power Prediction,Selected Final Architecture,HistGradientBoostingRegressor,Ensemble
+ML Power Prediction,Holdout Test R² Score,0.9962,Dimensionless
+ML Power Prediction,Holdout Root Mean Sq Error,47.22,kW
+ML Power Prediction,Holdout Normalized RMSE,2.05,% (of 2.3 MW)
+ML Power Prediction,Holdout Mean Absolute Error,25.65,kW
+Anomaly Detection,Sustained Underperformance Events,23,Events (>=30m)
+Anomaly Detection,Underperformance Deficit Threshold,-250.0,kW (wind >= 3.5 m/s)
+Alarm & Shutdowns,Total SCADA Alarms Ingested,512117,Events
+Alarm & Shutdowns,Anomalies Coincident with Alarms,65.2,%
+Alarm & Shutdowns,Silent Aerodynamic Drift Anomalies,34.8,% (Requires Investigation)
+SCADA Replay Engine,Mean Per-Step Processing Latency,1.48,ms
+SCADA Replay Engine,Streaming Pipeline Throughput,675.0,steps/sec

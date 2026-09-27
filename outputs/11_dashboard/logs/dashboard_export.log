@@ -1,0 +1,25 @@
+2026-09-27 22:27:04,131 [INFO] Starting Phase 11 Dashboard Export...
+2026-09-27 22:27:04,177 [INFO] Saved dashboard_kpi_results.csv (13 KPIs)
+2026-09-27 22:27:04,188 [INFO] Saved dashboard_data_dictionary.csv and dashboard_kpi_dictionary.csv
+2026-09-27 22:27:04,190 [INFO] Saved dashboard_refresh_manifest.json
+2026-09-27 22:27:51,175 [INFO] Starting Phase 11 Dashboard Export...
+2026-09-27 22:27:51,219 [INFO] Saved dashboard_kpi_results.csv (13 KPIs)
+2026-09-27 22:27:51,230 [INFO] Saved dashboard_data_dictionary.csv and dashboard_kpi_dictionary.csv
+2026-09-27 22:27:51,232 [INFO] Saved dashboard_refresh_manifest.json
+2026-09-27 22:27:51,326 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:27:51,332 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:28:23,125 [INFO] Starting Phase 11 Dashboard Export...
+2026-09-27 22:28:23,163 [INFO] Saved dashboard_kpi_results.csv (13 KPIs)
+2026-09-27 22:28:23,171 [INFO] Saved dashboard_data_dictionary.csv and dashboard_kpi_dictionary.csv
+2026-09-27 22:28:23,173 [INFO] Saved dashboard_refresh_manifest.json
+2026-09-27 22:28:23,259 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:28:23,262 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:29:03,639 [INFO] Starting Phase 11 Dashboard Export...
+2026-09-27 22:29:03,678 [INFO] Saved dashboard_kpi_results.csv (13 KPIs)
+2026-09-27 22:29:03,687 [INFO] Saved dashboard_data_dictionary.csv and dashboard_kpi_dictionary.csv
+2026-09-27 22:29:03,689 [INFO] Saved dashboard_refresh_manifest.json
+2026-09-27 22:29:03,760 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:29:03,763 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 22:29:05,700 [INFO] Saved dashboard preview: C:\Pratik\MDM\project2\outputs\11_dashboard\preview\final_dashboard_preview.png
+2026-09-27 22:29:05,702 [INFO] Saved report.md
+2026-09-27 22:29:05,702 [INFO] Phase 11 Dashboard Export completed successfully.

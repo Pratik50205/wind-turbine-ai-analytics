@@ -1,0 +1,19 @@
+anomaly:
+  contamination: 0.03
+  methods:
+  - PowerCurveDeviation
+  - IsolationForest
+  - AlarmCorrelation
+regression:
+  algorithms:
+  - LinearRegression
+  - RandomForestRegressor
+  - GradientBoostingRegressor
+  cv_splits: 5
+  metrics:
+  - RMSE
+  - MAE
+  - R2
+  - MAPE
+  target: wtc_ActPower_mean
+  test_size: 0.2

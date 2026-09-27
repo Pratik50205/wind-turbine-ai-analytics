@@ -1,0 +1,20 @@
+{
+  "export_timestamp": "2026-09-27T22:29:03.688015",
+  "application_name": "Hill of Towie Wind Farm AI Decision Support Dashboard",
+  "technology": "Dash 4.0.0 + Plotly 6.5.2 Desktop",
+  "turbines_count": 21,
+  "turbine_model": "Siemens SWT-2.3-VS-82",
+  "rated_capacity_mw": 48.3,
+  "source_files": [
+    "data/processed/scada_2025_cleaned.parquet",
+    "data/processed/scada_2026_cleaned.parquet",
+    "data/processed/alarms_cleaned.parquet",
+    "outputs/04_performance_analysis/performance_metrics.csv",
+    "outputs/07_power_prediction/predictions_sample.csv",
+    "outputs/08_anomaly_detection/anomaly_events.csv",
+    "outputs/09_event_analysis/alarm_summary.csv",
+    "outputs/10_replay_processing/replay_sample_output.csv"
+  ],
+  "kpis_verified": true,
+  "zero_fabrication_audit": "PASSED"
+}

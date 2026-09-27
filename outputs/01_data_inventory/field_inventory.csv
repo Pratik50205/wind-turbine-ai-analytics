@@ -1,0 +1,24 @@
+field_name,source_table,unit,category,description,verified_present
+wtc_ActPower_mean,tblSCTurGrid,kW,Target,Active Power Mean (10-minute average grid-exported power),True
+wtc_AmpPhR_mean,tblSCTurGrid,A,Electrical,Phase R current (mean),True
+wtc_Gen1U1Tm_mean,tblSCTurTemp,°C,Thermal / Electrical,Generator stator winding temperature 1U1,True
+wtc_AcWindSp_mean,tblSCTurbine,m/s,Aerodynamic / Input,Active anemometer 10-minute average wind speed,True
+wtc_PrWindSp_mean,tblSCTurbine,m/s,Aerodynamic / Input,Primary anemometer 10-minute average wind speed,True
+wtc_GenRpm_mean,tblSCTurbine,rpm,Mechanical / Drivetrain,Generator rotational speed (mean),True
+wtc_MainSRpm_mean,tblSCTurbine,rpm,Mechanical / Drivetrain,Main low-speed shaft rotational speed (mean),True
+wtc_GenBeGTm_mean,tblSCTurTemp,°C,Thermal / Mechanical,Generator non-drive end bearing temperature,True
+wtc_GeOilTmp_mean,tblSCTurTemp,°C,Thermal / Lubrication,Gearbox oil temperature,True
+wtc_CosPhi_mean,tblSCTurGrid,unitless,Electrical,Power factor (mean),True
+wtc_ScInOper_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine in normal operation (max 600s),True
+wtc_NacelTmp_mean,tblSCTurTemp,°C,Thermal,Nacelle internal air temperature,True
+wtc_GearPres_mean,tblSCTurPress,bar,Hydraulic / Mechanical,Gearbox lubrication oil pressure,True
+wtc_ActualWindDirection_mean,tblSCTurbine,deg,Environmental,Measured wind direction angle,True
+wtc_NacelPos_mean,tblSCTurbine,deg,Operational,Nacelle yaw position relative to North,True
+wtc_VoltPhR_mean,tblSCTurGrid,V,Electrical,Phase R voltage (mean),True
+wtc_PitcPosA_mean,tblSCTurbine,deg,Aerodynamic / Control,Blade A pitch angle (mean),True
+wtc_ScReToOp_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine ready to operate (max 600s),True
+wtc_BrakPres_mean,tblSCTurPress,bar,Hydraulic / Safety,Mechanical brake hydraulic pressure,True
+wtc_AmbieTmp_mean,tblSCTurTemp,°C,Environmental / Thermal,Ambient air temperature (mean),True
+wtc_GridFreq_mean,tblSCTurGrid,Hz,Electrical,Grid electrical frequency,True
+wtc_ScTurSto_timeon,tblSCTurFlag,seconds,Operational Flag,Duration turbine stopped / faulted (max 600s),True
+wtc_ReactPwr_mean,tblSCTurGrid,kVar,Electrical,Reactive power (mean),True

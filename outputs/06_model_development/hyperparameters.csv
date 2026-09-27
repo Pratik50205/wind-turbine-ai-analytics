@@ -1,0 +1,27 @@
+parameter,value
+model_type,HistGradientBoosting Regressor
+features_count,30
+training_records,150000
+target_variable,wtc_ActPower_mean
+rated_clamp_kw,2300.0
+categorical_features,from_dtype
+early_stopping,auto
+interaction_cst,None
+l2_regularization,1.0
+learning_rate,0.08
+loss,squared_error
+max_bins,255
+max_depth,None
+max_features,1.0
+max_iter,200
+max_leaf_nodes,45
+min_samples_leaf,25
+monotonic_cst,None
+n_iter_no_change,10
+quantile,None
+random_state,42
+scoring,loss
+tol,1e-07
+validation_fraction,0.1
+verbose,0
+warm_start,False

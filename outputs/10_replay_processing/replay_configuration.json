@@ -1,0 +1,41 @@
+{
+  "mode": "Historical SCADA Replay / Real-Time Simulation",
+  "primary_stream_source": "Hill of Towie 2026 Holdout SCADA",
+  "default_turbine": "T01",
+  "supported_turbines": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16",
+    "T17",
+    "T18",
+    "T19",
+    "T20",
+    "T21"
+  ],
+  "interval_seconds_simulated": 600,
+  "controls_supported": [
+    "start",
+    "pause",
+    "stop",
+    "reset",
+    "step",
+    "speed_multiplier"
+  ],
+  "pipeline_latency_target_ms": 50.0,
+  "mean_pipeline_latency_ms": 15.236,
+  "p99_pipeline_latency_ms": 25.382,
+  "stream_records_available": 17277
+}

@@ -1,0 +1,147 @@
+# ==============================================================================
+# Git Ignore Configuration — Hill of Towie Wind Farm AI Analytics Project
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Byte-compiled / Python Optimization Files
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# ------------------------------------------------------------------------------
+# 2. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# ------------------------------------------------------------------------------
+# 3. Packaging & Distribution
+# ------------------------------------------------------------------------------
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 4. Testing, Coverage & Profiling
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.hypothesis/
+.tox/
+
+# ------------------------------------------------------------------------------
+# 5. Jupyter Notebooks Checkpoints & Cache
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ------------------------------------------------------------------------------
+# 6. IDEs, Editors & AI Agent Artifacts
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.gemini/
+.system_generated/
+scratch/
+
+# ------------------------------------------------------------------------------
+# 7. Operating System Specific Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ------------------------------------------------------------------------------
+# 8. Large Datasets (> 100 MB GitHub Push Protection Limit)
+# ------------------------------------------------------------------------------
+# Raw 9.30 GB SCADA telemetry CSVs
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Intermediate data
+data/interim/*
+!data/interim/.gitkeep
+!data/interim/README.md
+
+# Processed & Model-Ready Parquet files (> 100 MB per file)
+# (Can be deterministically re-generated via `python -m src.pipeline --stage preprocessing`)
+data/processed/*.parquet
+!data/processed/.gitkeep
+
+data/model_ready/*.parquet
+!data/model_ready/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 9. Large Model Binaries (> 100 MB)
+# ------------------------------------------------------------------------------
+# Random Forest candidate exceeds GitHub 100MB limit (111.35 MB)
+models/candidates/random_forest.joblib
+
+# Explicitly KEEP final production model (HistGBM is only 1.04 MB)
+!models/final/best_power_model.joblib
+!models/candidates/hist_gradient_boosting.joblib
+!models/candidates/ridge_linear.joblib
+!models/**/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 10. Temporary & Scratch Logs (Preserve outputs/ evidence logs)
+# ------------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ------------------------------------------------------------------------------
+# 11. Internal PRD Specification Documents
+# ------------------------------------------------------------------------------
+MDM_MASTER_PRD_DASH_PLOTLY.md
+*PRD*.md
+

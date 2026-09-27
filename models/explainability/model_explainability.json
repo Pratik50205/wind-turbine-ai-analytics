@@ -1,0 +1,35 @@
+{
+  "model_name": "HistGradientBoostingRegressor",
+  "leakage_audit": "PASSED",
+  "quarantined_features": [
+    "wtc_AmpPhR_mean",
+    "is_curtailed",
+    "is_stopped"
+  ],
+  "top_features_by_importance": [
+    {
+      "rank": 1,
+      "feature": "aero_power_available_kw",
+      "importance_pct": 77.81,
+      "physical_basis": "P ~ 0.5 * rho * A * v^3"
+    },
+    {
+      "rank": 2,
+      "feature": "wtc_GenRpm_mean",
+      "importance_pct": 6.1,
+      "physical_basis": "Generator rotor rotational velocity"
+    },
+    {
+      "rank": 3,
+      "feature": "wtc_MainSRpm_mean",
+      "importance_pct": 5.55,
+      "physical_basis": "Main low-speed shaft rotational velocity"
+    },
+    {
+      "rank": 4,
+      "feature": "wtc_AcWindSp_mean",
+      "importance_pct": 4.22,
+      "physical_basis": "Hub anemometer wind velocity"
+    }
+  ]
+}

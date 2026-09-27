@@ -1,0 +1,2 @@
+candidate_target,table,engineering_unit,description,count_records,min_value_kw,max_value_kw,mean_value_kw,std_dev_kw,median_kw,q25_kw,q75_kw,rated_turbine_power_kw,max_pct_of_rated,negative_power_record_count,negative_power_pct,zero_power_record_count,selection_verdict
+wtc_ActPower_mean,tblSCTurGrid,kW,Active Power Mean (10-minute average grid-exported power),93765,-20.33172035217285,2302.763916015625,725.87,767.22,412.3,70.73,1292.11,2300.0,100.12,18188,19.4,0,CONFIRMED_PRIMARY_TARGET

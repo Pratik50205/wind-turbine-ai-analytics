@@ -1,0 +1,2 @@
+mean_residual_kw,std_residual_kw,median_residual_kw,mad_robust_sigma_kw,q01_residual_kw,q05_residual_kw,q95_residual_kw,q99_residual_kw,selected_underperformance_threshold_kw
+0.354,47.217,-2.19,17.88,-123.489,-59.63,67.52,158.407,-250.0

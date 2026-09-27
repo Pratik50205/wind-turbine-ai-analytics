@@ -1,0 +1,5 @@
+method,lower_threshold_kw,upper_threshold_kw,rationale
+Parametric 3-Sigma,-141.3,142.01,Classical statistical outlier threshold assuming normality
+Robust MAD (3.5 * MAD),-64.77,60.39,Resistant to heavy tails and operational spikes
+Empirical Quantile (1st - 99th Pct),-123.49,158.41,Direct data-driven empirical boundaries on operational holdout
+Selected Operational Deficit Standard,-250.0,250.0,Primary threshold for abnormal underperformance (>= 250 kW power deficit)

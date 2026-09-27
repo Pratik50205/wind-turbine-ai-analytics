@@ -1,0 +1,5 @@
+stage,rows_before,rows_after,rows_removed,percentage_removed,reason
+1. Raw Source Ingestion,1421276,1421276,0,0.0,Initial cross-table join of 10-minute SCADA tables
+2. Exact Duplicate Removal,1421276,1421004,272,0.0191,"Identical (TimeStamp, StationId) duplicate record resolution"
+3. Physical Validity Range Filter,1421004,1421004,0,0.0,"Removal of unphysical values (power outside [-50, 2450] kW, wind speed > 35 m/s, negative rpm)"
+4. Target & Wind Speed Completeness,1421004,1420964,40,0.0028,Exclusion of records where active power target or wind speed remained null after single-step imputation

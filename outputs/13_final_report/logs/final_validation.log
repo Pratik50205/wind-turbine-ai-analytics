@@ -1,0 +1,45 @@
+2026-09-27 23:00:30,519 [INFO] Starting Phase 13 Final Reporting and Verification...
+2026-09-27 23:00:30,567 [INFO] Saved final_metrics.csv
+2026-09-27 23:00:30,569 [INFO] Saved executive_summary.md
+2026-09-27 23:00:30,571 [INFO] Saved FINAL_PROJECT_REPORT.md
+2026-09-27 23:00:31,198 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:00:31,201 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:00:32,795 [INFO] Saved FINAL_PROJECT_REPORT.pdf: C:\Pratik\MDM\project2\outputs\13_final_report\FINAL_PROJECT_REPORT.pdf
+2026-09-27 23:00:32,798 [INFO] Saved model_card.md
+2026-09-27 23:00:32,801 [INFO] Saved data_card.md
+2026-09-27 23:00:32,804 [INFO] Saved limitations.md
+2026-09-27 23:00:32,807 [INFO] Saved reproducibility_check.md
+2026-09-27 23:00:32,809 [INFO] Saved docs/DASHBOARD_GUIDE.md
+2026-09-27 23:00:32,812 [INFO] Copied final_system_overview.png
+2026-09-27 23:00:32,815 [INFO] Copied artifact_manifest.csv
+2026-09-27 23:00:32,816 [INFO] Phase 13 Final Reporting and Verification COMPLETED SUCCESSFULLY.
+2026-09-27 23:02:07,962 [INFO] Starting Phase 13 Final Reporting and Verification...
+2026-09-27 23:02:08,001 [INFO] Saved final_metrics.csv
+2026-09-27 23:02:08,003 [INFO] Saved executive_summary.md
+2026-09-27 23:02:08,004 [INFO] Saved FINAL_PROJECT_REPORT.md
+2026-09-27 23:02:08,582 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:02:08,587 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:02:10,249 [INFO] Saved FINAL_PROJECT_REPORT.pdf: C:\Pratik\MDM\project2\outputs\13_final_report\FINAL_PROJECT_REPORT.pdf
+2026-09-27 23:02:10,252 [INFO] Saved model_card.md
+2026-09-27 23:02:10,255 [INFO] Saved data_card.md
+2026-09-27 23:02:10,258 [INFO] Saved limitations.md
+2026-09-27 23:02:10,260 [INFO] Saved reproducibility_check.md
+2026-09-27 23:02:10,261 [INFO] Saved docs/DASHBOARD_GUIDE.md
+2026-09-27 23:02:10,266 [INFO] Copied final_system_overview.png
+2026-09-27 23:02:10,268 [INFO] Copied artifact_manifest.csv
+2026-09-27 23:02:10,269 [INFO] Phase 13 Final Reporting and Verification COMPLETED SUCCESSFULLY.
+2026-09-27 23:17:32,595 [INFO] Starting Phase 13 Final Reporting and Verification...
+2026-09-27 23:17:32,629 [INFO] Saved final_metrics.csv
+2026-09-27 23:17:32,630 [INFO] Saved executive_summary.md
+2026-09-27 23:17:32,632 [INFO] Saved FINAL_PROJECT_REPORT.md
+2026-09-27 23:17:33,079 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:17:33,081 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-27 23:17:34,416 [INFO] Saved FINAL_PROJECT_REPORT.pdf: C:\Pratik\MDM\project2\outputs\13_final_report\FINAL_PROJECT_REPORT.pdf
+2026-09-27 23:17:34,421 [INFO] Saved model_card.md
+2026-09-27 23:17:34,423 [INFO] Saved data_card.md
+2026-09-27 23:17:34,426 [INFO] Saved limitations.md
+2026-09-27 23:17:34,429 [INFO] Saved reproducibility_check.md
+2026-09-27 23:17:34,430 [INFO] Saved docs/DASHBOARD_GUIDE.md
+2026-09-27 23:17:34,436 [INFO] Copied final_system_overview.png
+2026-09-27 23:17:34,439 [INFO] Copied artifact_manifest.csv
+2026-09-27 23:17:34,439 [INFO] Phase 13 Final Reporting and Verification COMPLETED SUCCESSFULLY.

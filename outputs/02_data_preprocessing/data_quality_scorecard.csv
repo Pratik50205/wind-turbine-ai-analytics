@@ -1,0 +1,6 @@
+metric,score,benchmark,status,detail
+Data Completeness,100.0%,>= 95.0%,EXCELLENT,Post-treatment missingness across all features < 0.1%
+Physical Validity,100.0%,>= 99.0%,EXCELLENT,Less than 0.1% unphysical sensor anomalies detected and cleaned
+Temporal Consistency,99.85%,>= 98.0%,EXCELLENT,10-minute interval grid synchronized across all 21 turbines
+Dataset Retention Rate,99.98%,>= 95.0%,PASS,"1,420,964 / 1,421,276 records cleanly preserved"
+Overall Data Quality Index (DQI),99.98 / 100,>= 90.0,EXCELLENT,High-integrity foundation ready for ML modeling and analytics

@@ -1,0 +1,16 @@
+author: MDM Minor Project Team
+logging_level: INFO
+paths:
+  dashboard: dashboard
+  data_interim: data/interim
+  data_model_ready: data/model_ready
+  data_processed: data/processed
+  data_raw: data/raw
+  docs: docs
+  models: models
+  outputs: outputs
+  root: .
+project_name: AI-Based Wind Turbine Performance Analysis and Power Prediction Using
+  Data Analytics
+seed: 42
+version: 1.0.0

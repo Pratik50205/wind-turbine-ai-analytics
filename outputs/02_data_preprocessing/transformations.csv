@@ -1,0 +1,10 @@
+step,operation,target,description
+1,Multi-table Inner Join,SCADA Tables,"Joined tblSCTurGrid, tblSCTurbine, tblSCTurTemp, tblSCTurPress, tblSCTurFlag on TimeStamp and StationId"
+2,Timestamp Normalization,TimeStamp,Parsed ISO 8601 strings into unified UTC datetime timestamps
+3,Duplicate Deduping,TimeStamp + StationId,Removed duplicate timestamp records preserving first chronological entry
+4,Physical Boundary Validation,All 28 SCADA channels,Validated against physical limits defined in DATA_DICTIONARY.md
+5,Sensor Dropout Imputation,Continuous telemetry,Single-step forward fill (limit=1) within each turbine stream
+6,Operational Flagging,"is_curtailed, is_aux_consumption, is_stopped",Derived binary indicators for operational modes
+7,Metadata Enrichment,"turbine_name, latitude, longitude, rated_power",Mapped metadata from Hill_of_Towie_turbine_metadata.csv
+8,Type Downcasting,Float features,Converted float64 to float32 to optimize memory footprint and query speed
+9,Parquet Serialization,data/processed/,Exported to compressed columnar Parquet format

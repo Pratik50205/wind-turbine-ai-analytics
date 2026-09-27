@@ -1,0 +1,14 @@
+phase,title,status,artifacts_count
+Phase 0,Environment & Project Validation,COMPLETED,6
+Phase 1,Data Inventory & Schema Discovery,COMPLETED,12
+Phase 2,Data Preprocessing & Quality Engine,COMPLETED,11
+Phase 3,Exploratory Data Analysis,COMPLETED,10
+Phase 4,Turbine Performance Analysis,COMPLETED,8
+Phase 5,Feature Engineering & Leakage Audit,COMPLETED,8
+Phase 6,Power Prediction Model Development,COMPLETED,9
+Phase 7,Holdout Prediction & Error Analysis,COMPLETED,7
+Phase 8,Abnormal Behavior Detection,COMPLETED,9
+Phase 9,Alarm & Shutdown Event Analysis,COMPLETED,8
+Phase 10,Historical SCADA Replay Engine,COMPLETED,7
+Phase 11,Dash + Plotly Decision Dashboard,COMPLETED,14
+Phase 12,Final Integration & Reproducibility,COMPLETED,8

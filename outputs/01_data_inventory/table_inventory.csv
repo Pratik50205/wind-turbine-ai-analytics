@@ -1,0 +1,15 @@
+table_name,description,frequency,file_count,total_size_mb,column_count,has_timestamp,has_turbine_id,sample_file_row_count,estimated_total_rows
+ShutdownDuration,Operational wind farm record,Event-based,1,302.16,3,True,True,9574005,9574005
+tblAlarmLog,Log of stopping and non-stopping events/alarms,Event-based,16,16.59,4,True,True,20032,320512
+tblDailySummary,"Daily aggregations of turbine signals, either averages or last value of each signal",Daily,16,10.78,208,True,True,704,11264
+tblGrid,Signals from grid monitoring stations [10min],10-minute,16,16.93,23,True,False,4465,71440
+tblGridScientific,"Signals from grid monitoring stations, including calculated signals [10min]",10-minute,16,15.34,23,True,False,4465,71440
+tblSCTurCount,"Turbine counter signals (hours, events, etc.) [10min]",10-minute,16,1058.94,71,True,True,93765,1500240
+tblSCTurDigiIn,Turbine digital input signals [10min],10-minute,16,641.94,113,True,True,93765,1500240
+tblSCTurDigiOut,Turbine digital output signals [10min],10-minute,16,437.25,77,True,True,93765,1500240
+tblSCTurFlag,Turbine status information [10min],10-minute,16,245.82,44,True,True,93765,1500240
+tblSCTurGrid,Turbine grid-related measurements [10min],10-minute,16,990.03,52,True,True,93765,1500240
+tblSCTurIntern,Turbine internal signals [10min],10-minute,16,915.24,39,True,True,93765,1500240
+tblSCTurPress,Turbine pressure measurements [10min],10-minute,16,799.23,46,True,True,93765,1500240
+tblSCTurTemp,Turbine temperature measurements [10min],10-minute,16,1791.61,138,True,True,93765,1500240
+tblSCTurbine,Turbine signals not categorised in other tables [10min],10-minute,16,2058.39,96,True,True,93765,1500240

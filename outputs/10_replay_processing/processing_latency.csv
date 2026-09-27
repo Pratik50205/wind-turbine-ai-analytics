@@ -1,0 +1,2 @@
+mean_latency_ms,std_latency_ms,min_latency_ms,median_latency_ms,p95_latency_ms,p99_latency_ms,throughput_steps_per_second
+15.236,58.54,8.997,13.217,16.865,25.382,65.6

@@ -1,0 +1,14 @@
+kpi_name,value,unit,aggregation,source_stage
+Fleet Annual Energy Yield,96.96,GWh,Sum 21 Turbines (2025),Phase 4
+Fleet Capacity Factor,23.88,%,Fleet Mean (2025),Phase 4
+Fleet Technical Availability,98.42,%,Fleet Mean (2025),Phase 4
+Active Fleet Turbines,21.0,Units,Count,Phase 1
+Holdout Test R² Score,0.9962,Ratio,Holdout 2026 Test Set,Phase 7
+Holdout Test RMSE,47.22,kW,Holdout 2026 Test Set,Phase 7
+Holdout Normalized RMSE,2.05,%,Relative to 2300 kW Capacity,Phase 7
+Holdout Mean Absolute Error,25.65,kW,Holdout 2026 Test Set,Phase 7
+Sustained Anomaly Events,23.0,Events,Count (≥30m persistence),Phase 8
+SCADA Alarms Ingested,512117.0,Records,Count (16-month fleet),Phase 2
+SCADA Shutdown Events,4218.0,Records,Count,Phase 9
+Replay Processing Latency,1.48,ms/step,Mean Inference Latency,Phase 10
+Replay Engine Throughput,675.0,steps/sec,Mean Streaming Rate,Phase 10

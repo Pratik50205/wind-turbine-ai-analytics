@@ -1,0 +1,9 @@
+feature_name,leakage_risk,decision,rationale
+wtc_ActPower_mean,TARGET,EXCLUDED_AS_INPUT,Exact prediction target variable ($y$). Cannot be used as feature.
+wtc_AmpPhR_mean,HIGH,EXCLUDED,Phase current is a direct electrical consequence of generated active power ($I \approx P / (\sqrt{3} V \cos\phi)$). Including current creates trivial circular leakage.
+wtc_VoltPhR_mean,LOW,RETAINED_AUXILIARY,Grid voltage is primarily governed by the utility substation and grid stiffness rather than turbine power.
+wtc_CosPhi_mean,MEDIUM,EXCLUDED,Direct power factor calculation derived from instantaneous active and apparent power.
+wtc_ReactPwr_mean,MEDIUM,EXCLUDED,Coupled to electrical generator inverter controls; excluded from primary aerodynamic power prediction.
+wtc_PowerRef_endvalue,HIGH_IF_FREE,RETAINED_FOR_BASELINE,"Controller internal setpoint; kept for benchmarking against supervisory control, but primary ML model trains without it to remain independent of SCADA setpoint availability."
+is_stopped,LABEL_LEAKAGE,EXCLUDED_FROM_ML_INPUTS,"Operational status flag derived from wtc_ScTurSto_timeon; used only for data partitioning/filtering, not as a regression input."
+is_curtailed,LABEL_LEAKAGE,EXCLUDED_FROM_ML_INPUTS,Synthetic curtailment flag derived using power; using it as input would cause label leakage.

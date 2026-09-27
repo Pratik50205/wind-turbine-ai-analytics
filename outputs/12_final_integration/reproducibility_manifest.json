@@ -1,0 +1,13 @@
+{
+  "environment": {
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "os": "nt",
+    "random_seed": 42
+  },
+  "execution_command": "python -m src.pipeline --stage all",
+  "hardware_recommendation": "Standard x86_64 Student PC, 16GB RAM, No GPU Required",
+  "execution_time_minutes": "~8-10 mins end-to-end",
+  "offline_capable": true,
+  "data_fabrication_audit": "PASSED (Zero synthetic data)",
+  "unit_test_command": "python -m pytest"
+}

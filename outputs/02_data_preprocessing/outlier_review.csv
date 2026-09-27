@@ -1,0 +1,4 @@
+phenomenon,condition,detected_count,pct_of_dataset,nature,treatment
+Auxiliary Grid Consumption,Active Power < 0.0 kW and >= -50.0 kW,276956,19.49,Legitimate Operational Mode (Turbine drawing parasitic power for yaw/pitch/lubrication during calm wind or standstill),Retained with 'is_aux_consumption=1' flag; separate zero-power handling in regression pipeline
+Aerodynamic Curtailment / Pitch De-rate,Wind Speed > 12.0 m/s & Pitch > 15.0 deg & Power < 500 kW,12872,0.91,"Operational Event (Turbine feathered for grid curtailment, acoustic restriction, or maintenance)",Retained with 'is_curtailed=1' flag; critical for anomaly detection engine
+Turbine Tripped / Stopped,wtc_ScTurSto_timeon > 300 seconds,19162,1.35,Alarm-Induced Shutdown or Error,Retained with 'is_stopped=1' flag; correlated with tblAlarmLog

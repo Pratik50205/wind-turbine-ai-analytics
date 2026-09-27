@@ -1,0 +1,104 @@
+dashboard:
+  debug: false
+  host: 127.0.0.1
+  port: 8050
+  refresh_interval_ms: 2000
+  title: "Hill of Towie Wind Farm \u2014 Performance & Power Prediction"
+data:
+  primary_features:
+    aerodynamic_mechanical:
+      fields:
+      - wtc_AcWindSp_mean
+      - wtc_ActualWindDirection_mean
+      - wtc_GenRpm_mean
+      - wtc_MainSRpm_mean
+      - wtc_PitcPosA_mean
+      - wtc_PitcPosB_mean
+      - wtc_PitcPosC_mean
+      - wtc_NacelPos_mean
+      table: tblSCTurbine
+    pressure:
+      fields:
+      - wtc_GearPres_mean
+      - wtc_BrakPres_mean
+      table: tblSCTurPress
+    status_flags:
+      fields:
+      - wtc_ScInOper_timeon
+      - wtc_ScReToOp_timeon
+      - wtc_ScTurSto_timeon
+      table: tblSCTurFlag
+    temperature:
+      fields:
+      - wtc_AmbieTmp_mean
+      - wtc_NacelTmp_mean
+      - wtc_GeOilTmp_mean
+      - wtc_Gen1U1Tm_mean
+      - wtc_GenBeGTm_mean
+      table: tblSCTurTemp
+  quality_thresholds:
+    gen_rpm_max: 2000.0
+    pitch_max_deg: 95.0
+    pitch_min_deg: -5.0
+    power_max_kw: 2450.0
+    power_min_kw: -50.0
+    wind_speed_max_ms: 35.0
+    wind_speed_min_ms: 0.0
+  target:
+    description: Active Power Mean (10-minute average)
+    field: wtc_ActPower_mean
+    table: tblSCTurGrid
+    unit: kW
+  temporal:
+    interval_minutes: 10
+    primary_test_year: 2026
+    primary_training_year: 2025
+    years_available:
+    - 2025
+    - 2026
+  turbines:
+    count: 21
+    hub_height_m: 59
+    prefix: T
+    rated_power_kw: 2300
+    rotor_diameter_m: 82
+    station_id_end: 2304530
+    station_id_start: 2304510
+  wind_farm: Hill of Towie
+model:
+  anomaly:
+    contamination: 0.03
+    methods:
+    - PowerCurveDeviation
+    - IsolationForest
+    - AlarmCorrelation
+  regression:
+    algorithms:
+    - LinearRegression
+    - RandomForestRegressor
+    - GradientBoostingRegressor
+    cv_splits: 5
+    metrics:
+    - RMSE
+    - MAE
+    - R2
+    - MAPE
+    target: wtc_ActPower_mean
+    test_size: 0.2
+project:
+  author: MDM Minor Project Team
+  logging_level: INFO
+  paths:
+    dashboard: dashboard
+    data_interim: data/interim
+    data_model_ready: data/model_ready
+    data_processed: data/processed
+    data_raw: data/raw
+    docs: docs
+    models: models
+    outputs: outputs
+    root: .
+  project_name: AI-Based Wind Turbine Performance Analysis and Power Prediction Using
+    Data Analytics
+  seed: 42
+  version: 1.0.0

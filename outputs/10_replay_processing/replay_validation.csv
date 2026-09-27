@@ -1,0 +1,6 @@
+check,status,detail
+Timestamp Chronological Order,PASS,All simulated timesteps monotonically increasing
+Prediction Boundedness,PASS,All predictions bounded between 0 kW and 2300 kW
+Inference Latency Target (<50ms),PASS,Observed mean latency: 15.24 ms
+Alert Classification Consistency,PASS,Classified 3 distinct operational alerts
+Multi-Turbine Capability,PASS,Configured for all 21 turbines (T01 - T21)

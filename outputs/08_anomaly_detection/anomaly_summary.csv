@@ -1,0 +1,7 @@
+operational_status,record_count,percentage,mean_actual_power_kw,mean_residual_kw
+normal,315136,87.174,937.57,1.78
+aux_consumption,38933,10.77,-11.45,-12.22
+curtailed_operation,4084,1.13,128.55,57.84
+shutdown_associated,2880,0.797,-5.61,-8.15
+elevated_deviation,386,0.107,817.24,-357.77
+abnormal_behavior,85,0.024,1317.78,-374.29

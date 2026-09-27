@@ -1,0 +1,23 @@
+{
+  "dataset_name": "Hill of Towie Wind Farm SCADA",
+  "turbines_processed": 21,
+  "years": [
+    2025,
+    2026
+  ],
+  "records_ingested": 1421276,
+  "duplicates_removed": 272,
+  "invalid_records_removed": 0,
+  "unrecoverable_missing_removed": 40,
+  "records_retained_cleaned": 1420964,
+  "retention_percentage": 99.98,
+  "clean_records_2025": 1059460,
+  "clean_records_2026": 361504,
+  "alarms_processed": 512117,
+  "data_quality_index": 99.98,
+  "processed_artifacts": [
+    "data/processed/scada_2025_cleaned.parquet",
+    "data/processed/scada_2026_cleaned.parquet",
+    "data/processed/alarms_cleaned.parquet"
+  ]
+}

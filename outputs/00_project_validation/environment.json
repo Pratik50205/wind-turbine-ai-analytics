@@ -1,0 +1,57 @@
+{
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Python314\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "architecture": "64bit",
+  "imported_dependencies": {
+    "pandas": {
+      "status": "SUCCESS",
+      "version": "3.0.0"
+    },
+    "numpy": {
+      "status": "SUCCESS",
+      "version": "2.4.3"
+    },
+    "scipy": {
+      "status": "SUCCESS",
+      "version": "1.17.1"
+    },
+    "sklearn": {
+      "status": "SUCCESS",
+      "version": "1.8.0"
+    },
+    "matplotlib": {
+      "status": "SUCCESS",
+      "version": "3.10.8"
+    },
+    "seaborn": {
+      "status": "SUCCESS",
+      "version": "0.13.2"
+    },
+    "plotly": {
+      "status": "SUCCESS",
+      "version": "6.5.2"
+    },
+    "dash": {
+      "status": "SUCCESS",
+      "version": "4.0.0"
+    },
+    "joblib": {
+      "status": "SUCCESS",
+      "version": "1.5.3"
+    },
+    "yaml": {
+      "status": "SUCCESS",
+      "version": "6.0.3"
+    },
+    "pytest": {
+      "status": "SUCCESS",
+      "version": "9.1.1"
+    },
+    "pyarrow": {
+      "status": "SUCCESS",
+      "version": "25.0.1"
+    }
+  }
+}

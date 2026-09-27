@@ -1,0 +1,31 @@
+feature_name,unit,domain,description
+wtc_AcWindSp_mean,m/s,Aerodynamic,Active nacelle anemometer 10-minute mean wind speed
+wind_speed_cubed,m^3/s^3,Aerodynamic,Cubic wind speed modeling theoretical aerodynamic power scaling
+air_density_kgm3,kg/m^3,Environmental,Local air density derived from ambient temperature
+aero_power_available_kw,kW,Aerodynamic,Theoretical available wind power entering the swept rotor area
+wind_dir_sin,unitless,Directional,Cyclical sine component of measured wind direction
+wind_dir_cos,unitless,Directional,Cyclical cosine component of measured wind direction
+yaw_misalignment_deg,deg,Control,Angular difference between incoming wind direction and nacelle orientation
+wtc_GenRpm_mean,rpm,Kinematic,High-speed generator rotational shaft speed
+wtc_MainSRpm_mean,rpm,Kinematic,Low-speed rotor main shaft rotational speed
+tip_speed_ratio,unitless,Kinematic,Rotor blade tip speed to wind speed ratio (TSR)
+gear_ratio_proxy,unitless,Kinematic,Ratio of generator RPM to main rotor RPM
+wtc_PitcPosA_mean,deg,Control,Blade A pitch angle regulating aerodynamic angle of attack
+pitch_asymmetry_deg,deg,Mechanical,"Pitch position divergence between rotor blades A, B, and C"
+wtc_AmbieTmp_mean,°C,Thermal,Ambient outside air temperature
+wtc_NacelTmp_mean,°C,Thermal,Interior nacelle ambient air temperature
+wtc_GeOilTmp_mean,°C,Thermal,Gearbox lubrication sump oil temperature
+wtc_Gen1U1Tm_mean,°C,Thermal,Generator stator winding temperature
+gen_nacelle_temp_delta,°C,Thermal,Generator winding temperature rise over nacelle ambient
+gear_ambient_temp_delta,°C,Thermal,Gearbox oil temperature rise over ambient air
+wtc_GearPres_mean,bar,Hydraulic,Gearbox lubrication oil circuit pressure
+wtc_BrakPres_mean,bar,Hydraulic,High-speed shaft mechanical brake pressure
+wind_speed_lag1,m/s,Temporal Lag,Wind speed measured in previous 10-minute interval ($t-1$)
+wind_speed_roll_mean_30m,m/s,Temporal Rolling,Rolling 30-minute mean wind speed
+wind_speed_roll_std_30m,m/s,Turbulence,Rolling 30-minute wind speed standard deviation (turbulence proxy)
+hour_sin,unitless,Temporal Cycle,Diurnal cycle sine component
+hour_cos,unitless,Temporal Cycle,Diurnal cycle cosine component
+month_sin,unitless,Seasonal Cycle,Annual seasonal cycle sine component
+month_cos,unitless,Seasonal Cycle,Annual seasonal cycle cosine component
+latitude,deg N,Spatial,Turbine geographic latitude coordinate
+longitude,deg W,Spatial,Turbine geographic longitude coordinate

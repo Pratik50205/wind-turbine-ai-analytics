@@ -1,0 +1,2 @@
+farm_name,turbines_count,total_annual_generation_gwh,mean_turbine_yield_mwh,farm_capacity_factor_pct,farm_technical_availability_pct,mean_energy_performance_ratio,best_performing_turbine,lowest_performing_turbine
+Hill of Towie,21,96.96,4616.96,23.88,98.42,0.9553,T13,T18
