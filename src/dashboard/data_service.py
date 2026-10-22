@@ -3,12 +3,19 @@ Dashboard Data Service
 Provides fast in-memory access and aggregation for Dash Plotly components.
 """
 
+import os
 from pathlib import Path
 from functools import lru_cache
 import pandas as pd
 import numpy as np
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+# Robust root resolution for local execution and Vercel serverless environment
+_cwd = Path(os.getcwd())
+if (_cwd / "outputs").exists():
+    PROJECT_ROOT = _cwd
+else:
+    PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
 
 class DashboardDataService:
     def __init__(self):

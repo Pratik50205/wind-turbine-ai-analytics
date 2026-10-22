@@ -1,5 +1,16 @@
 {
   "version": 2,
+  "env": {
+    "PYTHONPATH": "."
+  },
+  "functions": {
+    "api/index.py": {
+      "includeFiles": [
+        "src/**",
+        "outputs/**/*.csv"
+      ]
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
