@@ -1,0 +1,8 @@
+# Raw & processed large data files (>100MB)
+data/
+models/candidates/
+notebooks/
+tests/
+.pytest_cache/
+*.log
+docs/

@@ -1,0 +1,8 @@
+[project]
+name = "wind-turbine-ai-analytics"
+version = "1.0.0"
+description = "Hill of Towie Wind Farm AI Decision Support Dashboard"
+requires-python = ">=3.10"
+
+[tool.vercel]
+entrypoint = "dashboard.app:app"
